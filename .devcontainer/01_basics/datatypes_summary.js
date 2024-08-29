@@ -19,6 +19,28 @@ const myFunction=function()
 
     //console.log("function()" );
     
-   console.log(typeof anotherId); 
+   //console.log(typeof anotherId); 
+
+   //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+   let myYoutubechannel = "SaurabhGitedotcom";
+
+   let anothername = myYoutubechannel
+anothername= "chaiwithSaurabh";
+   //console.log(anothername);
+   //console.log(myYoutubechannel);
+
+   let userOne = {
+    email : "user@google.com" ,
+    upi: "user@ybl" 
+
+   }
+   let usertwo = userOne 
+
+   usertwo = userOne.email 
+   
+   console.log(userOne.email);
+   console.log(usertwo.upi);
+   
 
    
