@@ -32,15 +32,15 @@ anothername= "chaiwithSaurabh";
 
    let userOne = {
     email : "user@google.com" ,
-    upi: "user@ybl" 
+    upi : "user@ybl" 
 
    }
    let usertwo = userOne 
 
-   usertwo = userOne.email 
+   //usertwo = userOne.upi
    
-   console.log(userOne.email);
+   console.log(usertwo.email);
    console.log(usertwo.upi);
    
-*/
+
    
